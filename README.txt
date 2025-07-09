@@ -1,7 +1,5 @@
--In questa versione 2 di Gestore Password semplicemente ciò che cambia è l'autenticazione iniziale di Username e Password che stavolta è simultanea, poi l'uso della GUI per staccarmi dalla visualizzazione su terminale.
 
--Come sempre le credenziali sono sul file CredenzialiNew.txt stavolta, mentre le password che gestiremo, su psswGestorePss.txt
+First approach to Python using a Fernet key and an external library to make this possible, we made it so that when a user logs in, they will see their file containing their personal passwords in clear text. If this is not the case, the file is not decrypted and therefore it is not possible to access its contents. 
+Of course, if it appears logged in, after exiting the app, the files would still be encrypted.
 
--Di default ho messo Daniele:0000 come credenziali che possono essere cambiate a proprio piacimento
-
-Daniele Di Sarno
+-Daniele Di Sarno & Ciro La Rocca.
