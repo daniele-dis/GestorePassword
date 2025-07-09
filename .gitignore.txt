@@ -1,3 +1,0 @@
-CredenzialiNew.txt
-chiave.key
-psswGestorePssNew.txt
